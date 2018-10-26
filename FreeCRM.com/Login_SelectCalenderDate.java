@@ -14,15 +14,16 @@ public class Login_SelectCalenderDate {
 	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "C:\\01 Kieran\\01 Automatiom\\Webdriver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
+		String date = "32-November-2019";
 
 		manageWindow(driver);
 		loginToSite(driver);
-		goToCalender(driver);
+		goToCalender(driver, date);
 	}
 
-	private static void goToCalender(WebDriver driver) {
+	private static void goToCalender(WebDriver driver, String date) {
 		driver.switchTo().frame("mainpanel");
-		String date = "32-November-2019";
+		
 		String dateArray[] = date.split("-");
 		String day = dateArray[0];
 		String month = dateArray[1];
