@@ -1,0 +1,36 @@
+Link:
+//a [text() ='Features']
+
+//input[@type = 'text' and @placeholder = 'Username' and @class = 'form-control']
+
+//a[contains(text(), 'Sign Up') and @class='btn btn-danger']
+
+//*[@id="services"]/div/div/div[3]/a
+//*[@id="services"]/div/div/div[4]/a
+
+//button [contains(text(), Login) and @type='button']
+
+//a [contains(text(), Contacts) and @style ='background: rgb(152, 89, 182);']
+
+
+//a[@title='Alerts']
+
+//a[contains(text(), 'Alerts') and @title='Alerts']
+
+//a [contains(text(), 'Help Center')]
+
+//a[contains(text(), 'not supported')]
+//a[contains(text(), 'Hotmail not supported')]
+//a[text() = 'Hotmail not supported']
+
+
+
+//div[@class = 'dropdown'] //button[@aria-haspopup = 'true']
+
+//a[text()='Test_contact 20-June-2020']//parent::td[@class='datalistrow']//preceding-sibling::td[@class='datalistrow']//input[@name='contact_id']
+
+
+//input[@type='submit' and @value ='Login']
+
+//a[@class = 'navbar-brand']
+//a [contains(text(), 'Español')]
